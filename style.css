@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor */
+}
+
+.card {
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+.card-body {
+    padding: 20px; /* Espacio interno */
+}
+
+#resultado {
+    font-size: 18px; /* Tamaño del texto del resultado */
+    font-weight: bold; /* Negrita para el resultado */
+    color: #00698f; /* Color azul para el resultado */
+}
+
+form {
+    margin-top: 20px; /* Espacio entre el título y el formulario */
+}
+
+label {
+    margin-bottom: 10px; /* Espacio entre el label y el input */
+}
+
+input {
+    padding: 10px; /* Espacio interno del input */
+    border-radius: 5px; /* Bordes redondeados del input */
+}
+
+button[type="submit"] {
+    padding: 10px; /* Espacio interno del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    background-color: #4CAF50; /* Color verde del botón */
+    color: white; /* Texto blanco del botón */
+    border: none; /* Sin bordes */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; /* Color más oscuro al pasar sobre el botón */
+}
